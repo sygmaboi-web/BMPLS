@@ -11,7 +11,7 @@ const CANVAS_HEIGHT = 500;
 
 // Membuat objek gambar untuk bingkai (frame)
 const frameImage = new Image();
-frameImage.src = 'frame.png';
+frameImage.src = 'frame.svg';
 
 // State (status) untuk gambar pengguna
 let userImage = null;
