@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twibbon MPLS 2025 - Kustomisasi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>I'm Ready for MPLS 2025!</h1>
+        <p>Sesuaikan posisi dan ukuran fotomu di bawah ini.</p>
+
+        <canvas id="canvas" width="500" height="500"></canvas>
+
+        <div class="controls">
+            <label for="upload-foto" class="btn-upload">
+                ⬆️ Pilih atau Ganti Foto
+                <input type="file" id="upload-foto" accept="image/*">
+            </label>
+            
+            <div class="zoom-control">
+                <label for="zoom-slider">Zoom:</label>
+                <input type="range" id="zoom-slider" min="0.2" max="3" step="0.05" value="1">
+            </div>
+
+            <a id="download-btn" class="btn-download hidden">
+                ⬇️ Unduh Hasilnya
+            </a>
+        </div>
+        
+        <p class="instructions">
+            <strong>Tips:</strong> Klik dan seret pada gambar untuk memindahkan. Gunakan slider di atas untuk memperbesar/memperkecil.
+        </p>
+        
+        <footer>
+            Dibuat dengan ❤️ untuk MPLS 2025.
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
